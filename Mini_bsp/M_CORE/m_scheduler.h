@@ -105,6 +105,7 @@ extern uint32_t g_ui32SchedulerNumTasks;
 extern void SchedulerSysTickIntHandler(void);
 extern void SchedulerInit(uint32_t ui32TicksPerSecond);
 extern void SchedulerRun(void);
+extern uint32_t Scheduler_GetID(const char *Create_Name);
 extern void SchedulerTaskEnable(uint32_t ui32Index, bool bRunNow);
 extern void SchedulerTaskDisable(uint32_t ui32Index);
 extern uint32_t SchedulerTickCountGet(void);

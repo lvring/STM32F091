@@ -64,11 +64,11 @@ UART_HandleTypeDef huart2;
 void printf_1(void* UserParameters)
 {
   HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
-	printf("task_1\r\n");
+	INFO("task_1\r\n");
 }
 void printf_2(void* UserParametersoid)
 {
-	printf("task_2\r\n");
+	INFO("Printf2 ID = %d\r\n",Scheduler_GetID("Printf2"));
 }
 /* USER CODE END 0 */
 

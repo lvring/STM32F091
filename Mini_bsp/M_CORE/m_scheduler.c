@@ -7,7 +7,7 @@
   * @file    Scheduler
   * @author  JQ ->>https://github.com/lvring
   * @brief   TimeSchedulerCore
-  * @version V1.0 2019/4/15 -> ÐÞ¸Ä×Ôtivaware->utils
+  * @version V1.0 2019/4/15 -> ï¿½Þ¸ï¿½ï¿½ï¿½tivaware->utils
 	* @History V1.0 Create
   ******************************************************************************
   */
@@ -41,7 +41,7 @@ int Scheduler_Create(const char *Create_Name,uint32_t Scheduler_Frenquency,bool 
 	Scheduler_Ids++;
 	return 1;
 }
-int Scheduler_GetID(const char *Create_Name)
+uint32_t Scheduler_GetID(const char *Create_Name)
 {
 	for(uint8_t i = 0; i < Scheduler_Ids; i++ )
 	{
@@ -94,10 +94,10 @@ SchedulerSysTickIntHandler(void)
 void
 SchedulerInit(uint32_t ui32TicksPerSecond)
 {
-		Scheduler_Ids = 0;
-		g_psSchedulerTable =(tSchedulerTask *)malloc(SchedulerNumTasks_MAX*sizeof(tSchedulerTask));
+	Scheduler_Ids = 0;
+	g_psSchedulerTable =(tSchedulerTask *)malloc(SchedulerNumTasks_MAX*sizeof(tSchedulerTask));
     assert_param(ui32TicksPerSecond);
-		SysTick_Config(SystemCoreClock / ui32TicksPerSecond);//¸ù¾Ý²»Í¬µÄMCU½øÐÐ¸ü¸Ä
+	SysTick_Config(SystemCoreClock / ui32TicksPerSecond);//ï¿½ï¿½ï¿½Ý²ï¿½Í¬ï¿½ï¿½MCUï¿½ï¿½ï¿½Ð¸ï¿½ï¿½ï¿½
     //
     // Configure SysTick for a periodic interrupt.
     //

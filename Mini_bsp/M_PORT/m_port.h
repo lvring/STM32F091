@@ -5,6 +5,8 @@
 #include "m_include.h"
 #include "printf.h"
 #include "Board_Uart.h"
+#include "logtypedef.h"
+
 void Error_Handler(void);
 
 #endif
