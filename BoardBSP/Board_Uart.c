@@ -17,7 +17,6 @@ Board_Uart_Control_t UartHandle[USART_N] =
 	}
 };
 
-
 /**
   * @brief USART1 Initialization Function
   * @param None

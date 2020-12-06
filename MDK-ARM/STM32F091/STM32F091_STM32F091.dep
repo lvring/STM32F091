@@ -1,7 +1,7 @@
 Dependencies for Project 'STM32F091', Target 'STM32F091': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
 F (startup_stm32f091xc.s)(0x5FAF924F)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F091xC SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f091xc.lst --xref -o stm32f091\startup_stm32f091xc.o --depend stm32f091\startup_stm32f091xc.d)
-F (../Core/Src/main.c)(0x5FC3B63D)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\main.o --omf_browse stm32f091\main.crf --depend stm32f091\main.d)
+F (../Core/Src/main.c)(0x5FCCE563)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\main.o --omf_browse stm32f091\main.crf --depend stm32f091\main.d)
 I (../Core/Inc/main.h)(0x5FB155E1)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
 I (../Core/Inc/stm32f0xx_hal_conf.h)(0x5FAF9246)
@@ -36,15 +36,17 @@ I (D:\MyProgram\MDK\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
 I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
 I (..\Mini_bsp\M_MEMORY\m_alloc.h)(0x5FA81420)
-I (..\Mini_bsp\M_CORE\m_include.h)(0x5FB151F3)
+I (..\Mini_bsp\M_CORE\m_include.h)(0x5FCCDFBF)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\string.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\math.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\time.h)(0x5EC775F2)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\Mini_bsp\M_PORT\m_port.h)(0x5FC3ACC6)
-I (..\BoardBSP\board_uart.h)(0x5FC3AD54)
+I (..\Mini_bsp\M_PORT\m_port.h)(0x5FCCE4CC)
+I (..\BoardBSP\Board_Uart.h)(0x5FCCDFA8)
 I (..\Mini_bsp\M_CORE\m_timer.h)(0x5FB1035C)
+I (..\BoardBSP\Board_Init.h)(0x5FCCE4FF)
+I (..\BoardBSP\Board_Gpio.h)(0x5FCCE4E3)
 F (../Core/Src/stm32f0xx_it.c)(0x5FB14F2E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\stm32f0xx_it.o --omf_browse stm32f091\stm32f0xx_it.crf --depend stm32f091\stm32f0xx_it.d)
 I (../Core/Inc/main.h)(0x5FB155E1)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
@@ -628,7 +630,7 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5FAF923E)
-F (..\Mini_bsp\M_CORE\m_scheduler.c)(0x5FB15789)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\m_scheduler.o --omf_browse stm32f091\m_scheduler.crf --depend stm32f091\m_scheduler.d)
+F (..\Mini_bsp\M_CORE\m_scheduler.c)(0x5FCCDDF4)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\m_scheduler.o --omf_browse stm32f091\m_scheduler.crf --depend stm32f091\m_scheduler.d)
 I (..\Mini_bsp\M_CORE\m_scheduler.h)(0x5FB15706)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
 I (../Core/Inc/stm32f0xx_hal_conf.h)(0x5FAF9246)
@@ -663,13 +665,13 @@ I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\string.h)(0x5EC77604)
 I (..\Mini_bsp\M_MEMORY\m_alloc.h)(0x5FA81420)
-I (..\Mini_bsp\M_CORE\m_include.h)(0x5FB151F3)
+I (..\Mini_bsp\M_CORE\m_include.h)(0x5FCCDFBF)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\math.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\time.h)(0x5EC775F2)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\Mini_bsp\M_PORT\m_port.h)(0x5FC3ACC6)
-I (..\BoardBSP\board_uart.h)(0x5FC3AD54)
+I (..\Mini_bsp\M_PORT\m_port.h)(0x5FCCE4CC)
+I (..\BoardBSP\Board_Uart.h)(0x5FCCDFA8)
 F (..\Mini_bsp\M_CORE\m_timer.c)(0x5FB14CE3)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\m_timer.o --omf_browse stm32f091\m_timer.crf --depend stm32f091\m_timer.d)
 I (..\Mini_bsp\M_CORE\m_timer.h)(0x5FB1035C)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
@@ -712,7 +714,7 @@ I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\float.h)(0x5EC775FC)
 F (..\Mini_bsp\M_PORT\m_port.c)(0x5FC3AB57)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\m_port.o --omf_browse stm32f091\m_port.crf --depend stm32f091\m_port.d)
-I (..\Mini_bsp\M_PORT\m_port.h)(0x5FC3ACC6)
+I (..\Mini_bsp\M_PORT\m_port.h)(0x5FCCE4CC)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
 I (../Core/Inc/stm32f0xx_hal_conf.h)(0x5FAF9246)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5FAF923E)
@@ -741,7 +743,7 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5FAF923E)
-I (..\Mini_bsp\M_CORE\m_include.h)(0x5FB151F3)
+I (..\Mini_bsp\M_CORE\m_include.h)(0x5FCCDFBF)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\string.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
@@ -750,11 +752,11 @@ I (D:\MyProgram\MDK\ARM\ARMCC\include\math.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\time.h)(0x5EC775F2)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
 I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
-I (..\BoardBSP\board_uart.h)(0x5FC3AD54)
+I (..\BoardBSP\Board_Uart.h)(0x5FCCDFA8)
 I (..\Mini_bsp\M_CORE\m_scheduler.h)(0x5FB15706)
 F (..\Mini_bsp\M_MEMORY\m_alloc.c)(0x5FA81420)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\m_alloc.o --omf_browse stm32f091\m_alloc.crf --depend stm32f091\m_alloc.d)
 I (..\Mini_bsp\M_MEMORY\m_alloc.h)(0x5FA81420)
-I (..\Mini_bsp\M_CORE\m_include.h)(0x5FB151F3)
+I (..\Mini_bsp\M_CORE\m_include.h)(0x5FCCDFBF)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\string.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
@@ -764,8 +766,7 @@ I (D:\MyProgram\MDK\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\math.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\time.h)(0x5EC775F2)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
-I (..\Mini_bsp\M_PORT\m_port.h)(0x5FC3ACC6)
+I (..\Mini_bsp\M_PORT\m_port.h)(0x5FCCE4CC)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
 I (../Core/Inc/stm32f0xx_hal_conf.h)(0x5FAF9246)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5FAF923E)
@@ -792,9 +793,11 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5FAF923E)
-I (..\BoardBSP\board_uart.h)(0x5FC3AD54)
-F (..\BoardBSP\Board_Uart.c)(0x5FC3B02A)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\board_uart.o --omf_browse stm32f091\board_uart.crf --depend stm32f091\board_uart.d)
-I (..\BoardBSP\Board_Uart.h)(0x5FC3AD54)
+I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
+I (..\BoardBSP\Board_Uart.h)(0x5FCCDFA8)
+F (..\BoardBSP\Board_Uart.c)(0x5FCCDE77)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\board_uart.o --omf_browse stm32f091\board_uart.crf --depend stm32f091\board_uart.d)
+I (..\BoardBSP\Board_Uart.h)(0x5FCCDFA8)
+I (..\Mini_bsp\M_PORT\m_port.h)(0x5FCCE4CC)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
 I (../Core/Inc/stm32f0xx_hal_conf.h)(0x5FAF9246)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5FAF923E)
@@ -823,13 +826,94 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5FAF923E)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5FAF923E)
-I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
-I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
-I (..\Mini_bsp\M_PORT\m_port.h)(0x5FC3ACC6)
-I (..\Mini_bsp\M_CORE\m_include.h)(0x5FB151F3)
+I (..\Mini_bsp\M_CORE\m_include.h)(0x5FCCDFBF)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\math.h)(0x5EC77604)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\time.h)(0x5EC775F2)
 I (D:\MyProgram\MDK\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
+F (..\BoardBSP\Board_Init.c)(0x5FCCE50B)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\board_init.o --omf_browse stm32f091\board_init.crf --depend stm32f091\board_init.d)
+I (..\BoardBSP\Board_Init.h)(0x5FCCE4FF)
+I (..\Mini_bsp\M_PORT\m_port.h)(0x5FCCE4CC)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
+I (../Core/Inc/stm32f0xx_hal_conf.h)(0x5FAF9246)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5FB151BE)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5FAF9209)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f091xc.h)(0x5FAF9209)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5FAF9214)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5FAF9214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5FAF9214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5FAF9214)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5FAF9209)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_exti.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5FAF923E)
+I (..\Mini_bsp\M_CORE\m_include.h)(0x5FCCDFBF)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\time.h)(0x5EC775F2)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
+I (..\BoardBSP\Board_Uart.h)(0x5FCCDFA8)
+F (..\BoardBSP\Board_Gpio.c)(0x5FCCE509)(--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include -I ..\Mini_bsp\M_CORE -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_utils -I ..\Mini_bsp\M_PORT -I ..\Mini_bsp\M_MEMORY -I ..\BoardBSP-I.\RTE\_STM32F091-ID:\MyProgram\MDK\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\MyProgram\MDK\Pack\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F091xC -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F091xC-o stm32f091\board_gpio.o --omf_browse stm32f091\board_gpio.crf --depend stm32f091\board_gpio.d)
+I (..\BoardBSP\Board_Gpio.h)(0x5FCCE4E3)
+I (..\Mini_bsp\M_PORT\m_port.h)(0x5FCCE4CC)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5FAF923E)
+I (../Core/Inc/stm32f0xx_hal_conf.h)(0x5FAF9246)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5FB151BE)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5FAF9209)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f091xc.h)(0x5FAF9209)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x5FAF9214)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5FAF9214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5FAF9214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5FAF9214)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5FAF9209)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_exti.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x5FAF923E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x5FAF923E)
+I (..\Mini_bsp\M_CORE\m_include.h)(0x5FCCDFBF)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\math.h)(0x5EC77604)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\time.h)(0x5EC775F2)
+I (D:\MyProgram\MDK\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\Mini_bsp\M_utils\printf.h)(0x5FA81420)
+I (..\BoardBSP\Board_Uart.h)(0x5FCCDFA8)

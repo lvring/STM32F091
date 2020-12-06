@@ -1,5 +1,6 @@
 stm32f091\board_uart.o: ..\BoardBSP\Board_Uart.c
 stm32f091\board_uart.o: ..\BoardBSP\Board_Uart.h
+stm32f091\board_uart.o: ..\Mini_bsp\M_PORT\m_port.h
 stm32f091\board_uart.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
 stm32f091\board_uart.o: ../Core/Inc/stm32f0xx_hal_conf.h
 stm32f091\board_uart.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h
@@ -29,14 +30,13 @@ stm32f091\board_uart.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h
 stm32f091\board_uart.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h
 stm32f091\board_uart.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h
 stm32f091\board_uart.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h
-stm32f091\board_uart.o: ..\Mini_bsp\M_utils\printf.h
-stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
-stm32f091\board_uart.o: ..\Mini_bsp\M_PORT\m_port.h
 stm32f091\board_uart.o: ..\Mini_bsp\M_CORE\m_include.h
 stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\string.h
+stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
 stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdbool.h
 stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\math.h
 stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\time.h
 stm32f091\board_uart.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdio.h
-stm32f091\board_uart.o: ..\BoardBSP\board_uart.h
+stm32f091\board_uart.o: ..\Mini_bsp\M_utils\printf.h
+stm32f091\board_uart.o: ..\BoardBSP\Board_Uart.h

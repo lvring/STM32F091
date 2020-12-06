@@ -1,13 +1,12 @@
 #ifndef __BOARD_UART_H
 #define __BOARD_UART_H
-#include "stm32f0xx_hal.h"
-#include "printf.h"
+
 #include "m_port.h"
 
 typedef enum
 {
 	USART_DEBUG = 0,
-  USART_N        // COMNum
+  	USART_N        // COMNum
 }Board_Uart_Name_e;
 
 typedef struct

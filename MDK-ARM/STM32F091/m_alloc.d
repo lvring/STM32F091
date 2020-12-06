@@ -10,7 +10,6 @@ stm32f091\m_alloc.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 stm32f091\m_alloc.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\math.h
 stm32f091\m_alloc.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\time.h
 stm32f091\m_alloc.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdio.h
-stm32f091\m_alloc.o: ..\Mini_bsp\M_utils\printf.h
 stm32f091\m_alloc.o: ..\Mini_bsp\M_PORT\m_port.h
 stm32f091\m_alloc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
 stm32f091\m_alloc.o: ../Core/Inc/stm32f0xx_hal_conf.h
@@ -39,5 +38,6 @@ stm32f091\m_alloc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h
 stm32f091\m_alloc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h
 stm32f091\m_alloc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h
 stm32f091\m_alloc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h
-stm32f091\m_alloc.o: ..\BoardBSP\board_uart.h
+stm32f091\m_alloc.o: ..\Mini_bsp\M_utils\printf.h
+stm32f091\m_alloc.o: ..\BoardBSP\Board_Uart.h
 stm32f091\m_alloc.o: ..\Mini_bsp\M_PORT\m_port.h

@@ -14,8 +14,6 @@ extern "C" {
 	#include <stdarg.h>
 	#include <time.h>
 	#include <stdio.h>
-	#include "printf.h"
-
 
 	#define RTE_ALIGN_32BYTES(buf) buf __attribute__ ((aligned (32)))
 	

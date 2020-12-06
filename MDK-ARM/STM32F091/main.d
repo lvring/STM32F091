@@ -41,6 +41,8 @@ stm32f091\main.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\math.h
 stm32f091\main.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\time.h
 stm32f091\main.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdio.h
 stm32f091\main.o: ..\Mini_bsp\M_PORT\m_port.h
-stm32f091\main.o: ..\BoardBSP\board_uart.h
+stm32f091\main.o: ..\BoardBSP\Board_Uart.h
 stm32f091\main.o: ..\Mini_bsp\M_PORT\m_port.h
 stm32f091\main.o: ..\Mini_bsp\M_CORE\m_timer.h
+stm32f091\main.o: ..\BoardBSP\Board_Init.h
+stm32f091\main.o: ..\BoardBSP\Board_Gpio.h

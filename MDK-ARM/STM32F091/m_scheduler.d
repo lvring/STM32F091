@@ -40,5 +40,5 @@ stm32f091\m_scheduler.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\math.h
 stm32f091\m_scheduler.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\time.h
 stm32f091\m_scheduler.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdio.h
 stm32f091\m_scheduler.o: ..\Mini_bsp\M_PORT\m_port.h
-stm32f091\m_scheduler.o: ..\BoardBSP\board_uart.h
+stm32f091\m_scheduler.o: ..\BoardBSP\Board_Uart.h
 stm32f091\m_scheduler.o: ..\Mini_bsp\M_PORT\m_port.h

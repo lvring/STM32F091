@@ -4,11 +4,11 @@
 
 /**
   ******************************************************************************
-  * @file    scheduler
+  * @file    Scheduler
   * @author  JQ ->>https://github.com/lvring
-  * @brief   时间调度核心
+  * @brief   TimeSchedulerCore
   * @version V1.0 2019/4/15 -> 修改自tivaware->utils
-	* @History V1.0 创建
+	* @History V1.0 Create
   ******************************************************************************
   */
 tSchedulerTask *g_psSchedulerTable;

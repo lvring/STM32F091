@@ -38,6 +38,6 @@ stm32f091\m_port.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\math.h
 stm32f091\m_port.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\time.h
 stm32f091\m_port.o: D:\MyProgram\MDK\ARM\ARMCC\Bin\..\include\stdio.h
 stm32f091\m_port.o: ..\Mini_bsp\M_utils\printf.h
-stm32f091\m_port.o: ..\BoardBSP\board_uart.h
+stm32f091\m_port.o: ..\BoardBSP\Board_Uart.h
 stm32f091\m_port.o: ..\Mini_bsp\M_PORT\m_port.h
 stm32f091\m_port.o: ..\Mini_bsp\M_CORE\m_scheduler.h
